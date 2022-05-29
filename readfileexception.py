@@ -22,7 +22,10 @@ def main():
         print('ID   Last Name   First Name   Mark')
         print('-----------------------------------')
         
-        print(std_file.readline().rstrip())
+        print(sid)
+        print(sid)
+        print(sid)
+        print(sid)
 """
         while sid != '':
 
