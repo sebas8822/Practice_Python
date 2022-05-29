@@ -11,8 +11,8 @@ Write a program that reads the student data file ‘students.txt’
 of only the students having marks more than 80. Your program should handle
  all file I/O exceptions.
  """
- def main():
-    try:
+def main():
+    #try:
         # Open a file for writing
         std_file = open('student.txt', 'r')
 
@@ -21,7 +21,9 @@ of only the students having marks more than 80. Your program should handle
         print('List of excellent student(s):')
         print('ID   Last Name   First Name   Mark')
         print('-----------------------------------')
-
+        
+        print(std_file.readline().rstrip())
+"""
         while sid != '':
 
             last_name = std_file.readline().rstrip()
@@ -46,7 +48,7 @@ of only the students having marks more than 80. Your program should handle
 
     except IOError:
         print('An unexpected error occurred during file I/O.')
-
+"""
 
 # Call the main function
 main()
