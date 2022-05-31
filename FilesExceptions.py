@@ -27,11 +27,11 @@ def main():
     while ID != -1:
     
         #ID = random.randint(100,999)
-        student_file.write(str(ID)+", ")
+        student_file.write(str(ID)+"\n")
         Last_Name = "LAST" + str(ID)
-        student_file.write(Last_Name+", ")
+        student_file.write(Last_Name+"\n")
         First_Name = "Name"+ str(ID)
-        student_file.write(First_Name + ", ")
+        student_file.write(First_Name + "\n")
         Marks = marks_input()
         student_file.write(str(Marks) + "\n")
         

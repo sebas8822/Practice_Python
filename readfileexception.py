@@ -12,7 +12,7 @@ of only the students having marks more than 80. Your program should handle
  all file I/O exceptions.
  """
 def main():
-    #try:
+    try:
         # Open a file for writing
         std_file = open('student.txt', 'r')
 
@@ -21,24 +21,23 @@ def main():
         print('List of excellent student(s):')
         print('ID   Last Name   First Name   Mark')
         print('-----------------------------------')
-        
-        print(sid)
-        print(sid)
-        print(sid)
-        print(sid)
-"""
-        while sid != '':
 
+        while sid != '':
+            #read the line and  keep just the words       
             last_name = std_file.readline().rstrip()
+            
             first_name = std_file.readline().rstrip()
+            
             try:
                 mark = float(std_file.readline().rstrip())
+               
             except ValueError:
                 print('Invalid mark data found in file.')
             else:
                 # Display the student records having marks more than 80
-                if 80 < mark <= 100:
+                if 30 < mark <= 100:
                     sid = sid.rstrip()
+                   
                     # Use Python f-strings for easier column alignment. We don't have to use them but f-strings make it
                     # easy to format complex strings. See this link for an introduction: https://bit.ly/2ON71o7
                     print(f'{sid:5s}{last_name:12s}{first_name:13s}{mark}')
@@ -51,7 +50,7 @@ def main():
 
     except IOError:
         print('An unexpected error occurred during file I/O.')
-"""
+
 
 # Call the main function
 main()

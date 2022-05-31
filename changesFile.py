@@ -15,7 +15,7 @@ The program will prompt the user to enter a student ID. The program then
  should handle all file I/O exceptions.
  """
  
- import os  # Needed for deleting and renaming files
+import os  # Needed for deleting and renaming files
 
 
 def main():
@@ -29,7 +29,7 @@ def main():
         # Read the first student's id from the file
         delete_id = input('Enter the student id to be deleted: ')
 
-        sid = std_file.readline()
+        sid = std_file.readline()# read the ID
 
         # Continue reading the file as long as we are not at the last line
         while sid != '':
