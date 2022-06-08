@@ -1,0 +1,7 @@
+Inception,Christopher Nolan,Action|Adventure|Sci-Fi,2010,148
+Django Unchained,Quentin Tarantino,Drama|Western,2012,165
+The Hunger Games,Gary Ross,Action|Adventure|Sci-Fi,2012,142
+Gravity,Alfonso Cuarón,Drama|Sci-Fi|Thriller,2013,91
+Man of Steel,Zack Snyder,Action|Adventure|Sci-Fi,2013,143
+Life of Pi,Ang Lee,Adventure|Drama|Fantasy,2012,127
+How to Train Your Dragon,Dean DeBlois,Animation|Action|Adventure,2010,98
